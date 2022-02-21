@@ -1,5 +1,11 @@
 #pragma once
+#include<string>
+#include<istream>
+#include<vector>
+#include<json/json.h>
+#include<gmpxx.h>
 
+Json::Value der2json(std::istream& is);
 namespace ber {
 	enum Tag {
 		EOC,//0

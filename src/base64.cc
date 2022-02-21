@@ -1,5 +1,6 @@
 #include<string>
 #include<vector>
+#include "base64.h"
 using namespace std;
 
 static char b2c(unsigned char n)
